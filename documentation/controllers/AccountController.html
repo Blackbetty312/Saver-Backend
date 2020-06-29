@@ -1,0 +1,582 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>nestjs-saver documentation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top visible-xs">
+    <a href="../" class="navbar-brand">nestjs-saver documentation</a>
+    <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+</div>
+
+<div class="xs-menu menu" id="mobile-menu">
+    <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>
+    <compodoc-menu></compodoc-menu>
+</div>
+
+<div class="container-fluid main">
+    <div class="row main">
+        <div class="hidden-xs menu">
+            <compodoc-menu mode="normal"></compodoc-menu>
+        </div>
+        <!-- START CONTENT -->
+        <div class="content controller">
+            <div class="content-data">
+
+
+                <ol class="breadcrumb">
+                    <li>Controllers</li>
+                    <li>AccountController</li>
+                </ol>
+
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="active">
+                        <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+                    </li>
+                    <li>
+                        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div class="tab-pane fade active in" id="c-info">
+                        <p class="comment">
+                        <h3>File</h3>
+                        </p>
+                        <p class="comment">
+                            <code>src/account/account.controller.ts</code>
+                        </p>
+
+                        <p class="comment">
+                        <h3>Prefix</h3>
+                        </p>
+                        <p class="comment">
+                            <code>account</code>
+                        </p>
+
+                        <p class="comment">
+                        <h3>Description</h3>
+                        </p>
+                        <p class="comment">
+                        <p>Controller responsible for CRUD operations on account.</p>
+
+                        </p>
+
+
+                        <section>
+                            <h3 id="index">Index</h3>
+                            <table class="table table-sm table-bordered index-table">
+                                <tbody>
+
+                                <tr>
+                                    <td class="col-md-4">
+                                        <h6><b>Methods</b></h6>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <ul class="index-list">
+                                            <li>
+                                                <span class="modifier">Async</span>
+                                                <a href="#createAccount">createAccount</a>
+                                            </li>
+                                            <li>
+                                                <a href="#deleteAccount">deleteAccount</a>
+                                            </li>
+                                            <li>
+                                                <a href="#updateAccount">updateAccount</a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+
+
+                                </tbody>
+                            </table>
+                        </section>
+
+                        <section>
+
+                            <h3 id="methods">
+                                Methods
+                            </h3>
+                            <table class="table table-sm table-bordered">
+                                <tbody>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <a name="createAccount"></a>
+                                        <span class="name">
+                        <b>
+                            <span class="modifier">Async</span>
+                            createAccount
+                        </b>
+                        <a href="#createAccount"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <span class="modifier-icon icon ion-ios-reset"></span>
+                                        <code>createAccount(userId: <a
+                                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number"
+                                                target="_blank">number</a>, currId: <a
+                                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number"
+                                                target="_blank">number</a>, accountDto: <a
+                                                href="../classes/AccountDto.html">AccountDto</a>)</code>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="col-md-4">
+                                        <b>Decorators : </b>
+                                        <br/>
+                                        <code>@Post(&#x27;add/:id/:curr&#x27;)<br/></code>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="29"
+                                                                           class="link-to-prism">src/account/account.controller.ts:29</a>
+                                        </div>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-description"><p>This endpoint creates user&#39;s account.</p>
+                                        </div>
+
+                                        <div class="io-description">
+                                            <b>Parameters :</b>
+                                            <table class="params">
+                                                <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>userId</td>
+                                                    <td>
+                                                        <code><a
+                                                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number"
+                                                                target="_blank">number</a></code>
+                                                    </td>
+
+                                                    <td>
+                                                        No
+                                                    </td>
+
+
+                                                    <td>
+                                                        <p>User&#39;s identifier</p>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>currId</td>
+                                                    <td>
+                                                        <code><a
+                                                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number"
+                                                                target="_blank">number</a></code>
+                                                    </td>
+
+                                                    <td>
+                                                        No
+                                                    </td>
+
+
+                                                    <td>
+                                                        <p>Currency identifier</p>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>accountDto</td>
+                                                    <td>
+                                                        <code><a href="../classes/AccountDto.html" target="_self">AccountDto</a></code>
+                                                    </td>
+
+                                                    <td>
+                                                        No
+                                                    </td>
+
+
+                                                    <td>
+                                                        <p>Data Transfer Object containing information about the
+                                                            account</p>
+
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b> <code>Promise&lt;AccountModel&gt;</code>
+
+                                        </div>
+                                        <div class="io-description">
+                                            <p>Account</p>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <table class="table table-sm table-bordered">
+                                <tbody>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <a name="deleteAccount"></a>
+                                        <span class="name">
+                        <b>
+                            deleteAccount
+                        </b>
+                        <a href="#deleteAccount"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <code>deleteAccount(accountId: <a
+                                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number"
+                                                target="_blank">number</a>)</code>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="col-md-4">
+                                        <b>Decorators : </b>
+                                        <br/>
+                                        <code>@Delete(&#x27;delete/:id&#x27;)<br/></code>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="58"
+                                                                           class="link-to-prism">src/account/account.controller.ts:58</a>
+                                        </div>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-description"><p>This endpoint deletes user&#39;s account.</p>
+                                        </div>
+
+                                        <div class="io-description">
+                                            <b>Parameters :</b>
+                                            <table class="params">
+                                                <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>accountId</td>
+                                                    <td>
+                                                        <code><a
+                                                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number"
+                                                                target="_blank">number</a></code>
+                                                    </td>
+
+                                                    <td>
+                                                        No
+                                                    </td>
+
+
+                                                    <td>
+                                                        <p>User&#39;s account identifier</p>
+
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b> <code><a
+                                                href="https://www.typescriptlang.org/docs/handbook/basic-types.html"
+                                                target="_blank">any</a></code>
+
+                                        </div>
+                                        <div class="io-description">
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <table class="table table-sm table-bordered">
+                                <tbody>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <a name="updateAccount"></a>
+                                        <span class="name">
+                        <b>
+                            updateAccount
+                        </b>
+                        <a href="#updateAccount"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <code>updateAccount(accountId: <a
+                                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number"
+                                                target="_blank">number</a>, accountDto: <a
+                                                href="../classes/AccountDto.html">AccountDto</a>, currId: <a
+                                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number"
+                                                target="_blank">number</a>)</code>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="col-md-4">
+                                        <b>Decorators : </b>
+                                        <br/>
+                                        <code>@Post(&#x27;update/:id&#x27;)<br/></code>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-line">Defined in <a href="" data-line="45"
+                                                                           class="link-to-prism">src/account/account.controller.ts:45</a>
+                                        </div>
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td class="col-md-4">
+                                        <div class="io-description"><p>This endpoint updates user&#39;s account.</p>
+                                        </div>
+
+                                        <div class="io-description">
+                                            <b>Parameters :</b>
+                                            <table class="params">
+                                                <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Type</td>
+                                                    <td>Optional</td>
+                                                    <td>Description</td>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>accountId</td>
+                                                    <td>
+                                                        <code><a
+                                                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number"
+                                                                target="_blank">number</a></code>
+                                                    </td>
+
+                                                    <td>
+                                                        No
+                                                    </td>
+
+
+                                                    <td>
+                                                        <p>User&#39;s account identifier</p>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>accountDto</td>
+                                                    <td>
+                                                        <code><a href="../classes/AccountDto.html" target="_self">AccountDto</a></code>
+                                                    </td>
+
+                                                    <td>
+                                                        No
+                                                    </td>
+
+
+                                                    <td>
+                                                        <p>Data Transfer Object containing information about the
+                                                            account</p>
+
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>currId</td>
+                                                    <td>
+                                                        <code><a
+                                                                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number"
+                                                                target="_blank">number</a></code>
+                                                    </td>
+
+                                                    <td>
+                                                        No
+                                                    </td>
+
+
+                                                    <td>
+                                                        <p>Currency identifier</p>
+
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b> <code>Promise&lt;AccountModel&gt;</code>
+
+                                        </div>
+                                        <div class="io-description">
+                                            <p>Account</p>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </section>
+                    </div>
+
+
+                    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import {
+  Body,
+  Controller, Delete,
+  Param,
+  Post,
+  UseGuards,
+} from &#x27;@nestjs/common&#x27;;
+import { AccountService } from &#x27;./account.service&#x27;;
+import { AuthGuard } from &#x27;@nestjs/passport&#x27;;
+import { AccountModel } from &#x27;./account.model&#x27;;
+import { AccountDto } from &#x27;./account.dto&#x27;;
+
+/**
+ * Controller responsible for CRUD operations on account.
+ */
+@Controller(&#x27;account&#x27;)
+@UseGuards(AuthGuard(&#x27;jwt&#x27;))
+export class AccountController {
+  constructor(private readonly accountService: AccountService) {}
+
+  /**
+   * This endpoint creates user&#x27;s account.
+   * @param userId User&#x27;s identifier
+   * @param currId Currency identifier
+   * @param accountDto Data Transfer Object containing information about the account
+   * @return Account
+   */
+  @Post(&#x27;add/:id/:curr&#x27;)
+  async createAccount(
+    @Param(&#x27;id&#x27;) userId: number,
+    @Param(&#x27;curr&#x27;) currId: number,
+    @Body() accountDto: AccountDto,
+  ): Promise&lt;AccountModel&gt; {
+    return this.accountService.createAccount(userId, currId, accountDto);
+  }
+
+  /**
+   * This endpoint updates user&#x27;s account.
+   * @param accountId User&#x27;s account identifier
+   * @param accountDto Data Transfer Object containing information about the account
+   * @param currId Currency identifier
+   * @return Account
+   */
+  @Post(&#x27;update/:id&#x27;)
+  updateAccount(
+    @Param(&#x27;id&#x27;) accountId: number,
+    @Body() accountDto: AccountDto,
+    @Body(&#x27;currId&#x27;) currId: number,
+  ): Promise&lt;AccountModel&gt; {
+    return this.accountService.updateAccount(accountId, accountDto, currId);
+  }
+
+  /**
+   * This endpoint deletes user&#x27;s account.
+   * @param accountId User&#x27;s account identifier
+   */
+  @Delete(&#x27;delete/:id&#x27;)
+  deleteAccount(@Param(&#x27;id&#x27;) accountId: number) {
+    return this.accountService.deleteAccount(accountId);
+  }
+}
+</code></pre>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="search-results">
+                <div class="has-results">
+                    <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span
+                            class='search-query'></span>"</h1>
+                    <ul class="search-results-list"></ul>
+                </div>
+                <div class="no-results">
+                    <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+                </div>
+            </div>
+        </div>
+        <!-- END CONTENT -->
+    </div>
+</div>
+
+<script>
+  var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+  var COMPODOC_CURRENT_PAGE_CONTEXT = 'controller';
+  var COMPODOC_CURRENT_PAGE_URL = 'AccountController.html';
+  var MAX_SEARCH_RESULTS = 15;
+</script>
+
+<script src="../js/libs/custom-elements.min.js"></script>
+<script src="../js/libs/lit-html.js"></script>
+<!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+<script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+<script src="../js/menu-wc.js" defer></script>
+
+<script src="../js/libs/bootstrap-native.js"></script>
+
+<script src="../js/libs/es6-shim.min.js"></script>
+<script src="../js/libs/EventDispatcher.js"></script>
+<script src="../js/libs/promise.min.js"></script>
+<script src="../js/libs/zepto.min.js"></script>
+
+<script src="../js/compodoc.js"></script>
+
+<script src="../js/tabs.js"></script>
+<script src="../js/menu.js"></script>
+<script src="../js/libs/clipboard.min.js"></script>
+<script src="../js/libs/prism.js"></script>
+<script src="../js/sourceCode.js"></script>
+<script src="../js/search/search.js"></script>
+<script src="../js/search/lunr.min.js"></script>
+<script src="../js/search/search-lunr.js"></script>
+<script src="../js/search/search_index.js"></script>
+<script src="../js/lazy-load-graphs.js"></script>
+
+
+</body>
+</html>
